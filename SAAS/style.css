@@ -105,7 +105,7 @@ header {
 .first-section .first-section__image {
   height: 100vh;
   width: 100vw;
-  background-image: url(/img/2560x1440-4k-galaxy-space_1546279109.jpg);
+  background-image: url(../img/2560x1440-4k-galaxy-space_1546279109.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@ header {
 }
 
 .second-section .second-section__image {
-  background-image: url(/img/stars-the-universe-black-hole-quasar-wallpaper-e5f97f41d5fa4ce6b9cf2c115f2f7221.jpg);
+  background-image: url(../img/stars-the-universe-black-hole-quasar-wallpaper-e5f97f41d5fa4ce6b9cf2c115f2f7221.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -365,7 +365,7 @@ header {
 }
 
 .third-section .third-section__image {
-  background-image: url(/img/infinite_by_ellysiumn_dcd9tw4-fullview.jpg);
+  background-image: url(../img/infinite_by_ellysiumn_dcd9tw4-fullview.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -489,7 +489,7 @@ header {
 }
 
 .fourth-section .fourth-section__image {
-  background-image: url(/img/0.jpg);
+  background-image: url(../img/0.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
