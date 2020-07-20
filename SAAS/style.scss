@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #2d2e27;
+  background-color: #e5e7de;
   font-family: "MuseoModerno", cursive;
   overflow-y: scroll;
 
@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #121212;
+  background-color: #ffffff;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -46,7 +46,7 @@ header {
     li {
       a {
         text-decoration: none;
-        color: #ffffff;
+        color: #0d0d0d;
       }
     }
   }
@@ -91,7 +91,7 @@ header {
 
     .first-section__block {
       padding: 30px 20px 30px 20px;
-      background-color: #121212;
+      background-color: #ffffff;
       box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
       border-radius: 20px;
       width: 600px;
@@ -104,13 +104,17 @@ header {
 
       overflow: hidden;
 
+      &:hover text {
+        color: #ffffff;
+      }
+
       &:hover span {
         width: calc(var(--width) * 2.25);
         padding-top: calc(var(--width) * 2.25);
       }
 
       text {
-        color: #ffffff;
+        color: #000000;
         position: relative;
         z-index: 5;
 
@@ -126,7 +130,7 @@ header {
         height: 0;
 
         border-radius: 100%;
-        background: #7e0707;
+        background: #ff2b2b;
 
         transform: translate(-50%, -50%);
         transition: width var(--time), padding-top var(--time);
@@ -194,7 +198,7 @@ header {
 
     .second-section__block {
       padding: 30px 20px 30px 20px;
-      background-color: #121212;
+      background-color: #ffffff;
       box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
       border-radius: 20px;
       width: 800px;
@@ -207,13 +211,17 @@ header {
 
       overflow: hidden;
 
+      &:hover text {
+        color: #ffffff;
+      }
+
       &:hover span {
         width: calc(var(--width) * 2.25);
         padding-top: calc(var(--width) * 2.25);
       }
 
       text {
-        color: #ffffff;
+        color: #000000;
         position: relative;
         z-index: 5;
 
@@ -229,7 +237,7 @@ header {
         height: 0;
 
         border-radius: 100%;
-        background: #cf6a12;
+        background: #f87d19;
 
         transform: translate(-50%, -50%);
         transition: width var(--time), padding-top var(--time);
@@ -297,7 +305,7 @@ header {
 
     .third-section__block {
       padding: 30px 20px 30px 20px;
-      background-color: #121212;
+      background-color: #ffffff;
       box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
       border-radius: 20px;
       width: 800px;
@@ -310,13 +318,17 @@ header {
 
       overflow: hidden;
 
+      &:hover text {
+        color: #ffffff;
+      }
+
       &:hover span {
         width: calc(var(--width) * 2.25);
         padding-top: calc(var(--width) * 2.25);
       }
 
       text {
-        color: #ffffff;
+        color: #000000;
         position: relative;
         z-index: 5;
 
@@ -400,7 +412,7 @@ header {
 
     .fourth-section__block {
       padding: 30px 20px 30px 20px;
-      background-color: #121212;
+      background-color: #ffffff;
       box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
       border-radius: 20px;
       width: 800px;
@@ -413,13 +425,17 @@ header {
 
       overflow: hidden;
 
+      &:hover text {
+        color: #ffffff;
+      }
+
       &:hover span {
         width: calc(var(--width) * 2.25);
         padding-top: calc(var(--width) * 2.25);
       }
 
       text {
-        color: #ffffff;
+        color: #000000;
         position: relative;
         z-index: 5;
 

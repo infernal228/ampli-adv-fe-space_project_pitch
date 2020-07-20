@@ -30,7 +30,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #2d2e27;
+  background-color: #e5e7de;
   font-family: "MuseoModerno", cursive;
   overflow-y: scroll;
   -ms-overflow-style: none;
@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
 }
 
 header {
-  background-color: #121212;
+  background-color: #ffffff;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -83,7 +83,7 @@ header {
 
 .navigation ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #0d0d0d;
 }
 
 .first-section {
@@ -143,7 +143,7 @@ header {
 
 .first-section .first-section__content .first-section__block {
   padding: 30px 20px 30px 20px;
-  background-color: #121212;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
           box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
   border-radius: 20px;
@@ -156,13 +156,17 @@ header {
   overflow: hidden;
 }
 
+.first-section .first-section__content .first-section__block:hover text {
+  color: #ffffff;
+}
+
 .first-section .first-section__content .first-section__block:hover span {
   width: calc(var(--width) * 2.25);
   padding-top: calc(var(--width) * 2.25);
 }
 
 .first-section .first-section__content .first-section__block text {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   z-index: 5;
   -webkit-transition: color var(--time);
@@ -177,7 +181,7 @@ header {
   width: 0;
   height: 0;
   border-radius: 100%;
-  background: #7e0707;
+  background: #ff2b2b;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transition: width var(--time), padding-top var(--time);
@@ -278,7 +282,7 @@ header {
 
 .second-section .second-section__content .second-section__block {
   padding: 30px 20px 30px 20px;
-  background-color: #121212;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
           box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
   border-radius: 20px;
@@ -291,13 +295,17 @@ header {
   overflow: hidden;
 }
 
+.second-section .second-section__content .second-section__block:hover text {
+  color: #ffffff;
+}
+
 .second-section .second-section__content .second-section__block:hover span {
   width: calc(var(--width) * 2.25);
   padding-top: calc(var(--width) * 2.25);
 }
 
 .second-section .second-section__content .second-section__block text {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   z-index: 5;
   -webkit-transition: color var(--time);
@@ -312,7 +320,7 @@ header {
   width: 0;
   height: 0;
   border-radius: 100%;
-  background: #cf6a12;
+  background: #f87d19;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transition: width var(--time), padding-top var(--time);
@@ -398,7 +406,7 @@ header {
 
 .third-section .third-section__content .third-section__block {
   padding: 30px 20px 30px 20px;
-  background-color: #121212;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
           box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
   border-radius: 20px;
@@ -411,13 +419,17 @@ header {
   overflow: hidden;
 }
 
+.third-section .third-section__content .third-section__block:hover text {
+  color: #ffffff;
+}
+
 .third-section .third-section__content .third-section__block:hover span {
   width: calc(var(--width) * 2.25);
   padding-top: calc(var(--width) * 2.25);
 }
 
 .third-section .third-section__content .third-section__block text {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   z-index: 5;
   -webkit-transition: color var(--time);
@@ -518,7 +530,7 @@ header {
 
 .fourth-section .fourth-section__content .fourth-section__block {
   padding: 30px 20px 30px 20px;
-  background-color: #121212;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
           box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.4);
   border-radius: 20px;
@@ -531,13 +543,17 @@ header {
   overflow: hidden;
 }
 
+.fourth-section .fourth-section__content .fourth-section__block:hover text {
+  color: #ffffff;
+}
+
 .fourth-section .fourth-section__content .fourth-section__block:hover span {
   width: calc(var(--width) * 2.25);
   padding-top: calc(var(--width) * 2.25);
 }
 
 .fourth-section .fourth-section__content .fourth-section__block text {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   z-index: 5;
   -webkit-transition: color var(--time);
